@@ -80,12 +80,12 @@ const Services= () => {
 
       {/* Section Header */}
       <div className="text-center mb-9 max-w-7xl mx-auto animate-fade-in-up">
-        <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-1 md:mb-3">
+        {/* <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-1 md:mb-3">
           Our Specializations
-        </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed  ">
+        </h2> */}
+        {/* <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed  ">
           Every occasion deserves to be celebrated in style. Discover our comprehensive event planning services.
-        </p>
+        </p> */}
       </div>
 
       {/* Grid of Event Cards */}
