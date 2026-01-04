@@ -18,7 +18,7 @@ const ChooseUs = () => {
 
   return (
     <PageTransition>
-    <div className="py-16 px-4 sm:px-6 md:px-12 px-12 lg:px-24 bg-white md:mt-20 sm:mt-10 mt-11">
+    <div className="py-16 px-4 sm:px-6 md:px-12 px-12 lg:px-24 bg-white md:mt-20 sm:mt-10 mt-15">
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
         {/* Left Side: Content */}

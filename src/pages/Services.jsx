@@ -76,7 +76,8 @@ const Services= () => {
 
   return (
     <PageTransition>
-    <div className="py-20 md:px-12 px-9 sm:px-6   bg-white md:mt-20 mt-10 sm:mt-6">
+ <div className="py-20 px-4 sm:px-6 md:px-12 bg-white mt-10 md:mt-20">
+
       {/* Section Header */}
       <div className="text-center mb-9 max-w-7xl mx-auto animate-fade-in-up">
         <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-1">
@@ -88,7 +89,8 @@ const Services= () => {
       </div>
 
       {/* Grid of Event Cards */}
-      <div className="w-full md:max-w-7xl max-w-3xl sm:max-w-3xl mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="w-full max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
         {events.map((event, index) => (
           <div 
             key={index} 

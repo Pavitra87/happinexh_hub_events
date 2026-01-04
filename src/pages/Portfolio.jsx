@@ -5,7 +5,7 @@ import PageTransition from "../components/PageTransition";
 const Portfolio = () => {
   return (
     <PageTransition>
-      <div className="py-20 px-8 sm:px-6 md:px-12 lg:px-24 bg-white mt-20">
+      <div className="py-20 px-8 sm:px-6 md:px-12 lg:px-24 bg-white md:mt-20 mt-15">
         {/* Header */}
         <div className="text-center mb-12 max-w-7xl mx-auto animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl  font-bold text-brand-black mb-1">

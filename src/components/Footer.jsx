@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-[#0b1220] to-[#050a16] text-gray-300 mt-10">
       <div className="max-w-7xl mx-auto md:px-6 px-4 py-16">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 md:gap-8 gap-5 sm:gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 md:gap-8 gap-5 sm:gap-8">
           {/* Left Section */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -94,8 +94,11 @@ const Footer = () => {
 
               {/* Email */}
               <li className="flex items-center gap-2 hover:text-white">
-                <Mail size={16} />
-                <a href="mailto:happinexhubevents@gmail.com">
+                <Mail size={16} className="mt-[2px] shrink-0" />
+                 <a
+    href="mailto:happinexhubevents@gmail.com"
+    className="text-xs md:text-sm break-all"
+  >
                   happinexhubevents@gmail.com
                 </a>
               </li>
