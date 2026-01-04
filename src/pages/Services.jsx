@@ -79,11 +79,11 @@ const Services= () => {
  <div className="py-20 px-8 sm:px-6 md:px-12 bg-white mt-10 md:mt-20">
 
       {/* Section Header */}
-      <div className="text-center mb-9 max-w-7xl mx-auto animate-fade-in-up">
+      <div className="text-center mb-9 md:max-w-7xl mx-auto animate-fade-in-up">
         <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-1 md:mb-3">
           Our Specializations
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed  ">
+        <p className="text-gray-600  mx-auto leading-relaxed  ">
           Every occasion deserves to be celebrated in style. Discover our comprehensive event planning services.
         </p>
       </div>
