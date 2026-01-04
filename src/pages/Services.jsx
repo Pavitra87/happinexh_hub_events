@@ -83,7 +83,7 @@ const Services= () => {
         <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-1 md:mb-3">
           Our Specializations
         </h2>
-        <p className="text-gray-600  mx-auto leading-relaxed  ">
+        <p className="text-gray-600  leading-relaxed  ">
           Every occasion deserves to be celebrated in style. Discover our comprehensive event planning services.
         </p>
       </div>
