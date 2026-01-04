@@ -76,13 +76,13 @@ const Services= () => {
 
   return (
     <PageTransition>
-    <div className="py-20 px-12 sm:px-6 md:px-12 lg:px-24 bg-white md:mt-20 mt-10 sm:mt-6">
+    <div className="py-20 md:px-12 px-9 sm:px-6 md:px-12 lg:px-24 bg-white md:mt-20 mt-10 sm:mt-6">
       {/* Section Header */}
-      <div className="text-center mb-12 max-w-7xl mx-auto animate-fade-in-up">
-        <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-4">
+      <div className="text-center mb-9 max-w-7xl mx-auto animate-fade-in-up">
+        <h2 className="text-[35px] md:text-5xl font-bold text-brand-black mb-1">
           Events We Specialize In
         </h2>
-        <p className="text-gray-500 max-w-2xl mx-auto text-lg">
+        <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed  ">
           Every occasion deserves to be celebrated in style. Discover our comprehensive event planning services.
         </p>
       </div>

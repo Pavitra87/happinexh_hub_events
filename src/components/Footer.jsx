@@ -11,17 +11,17 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-[#0b1220] to-[#050a16] text-gray-300 mt-10">
-      <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-12">
+      <div className="max-w-7xl mx-auto md:px-6 px-4 py-16">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 md:gap-8 gap-5 sm:gap-8">
           {/* Left Section */}
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Heart className="text-red-500 fill-red-500" size={22} />
-              <h2 className="text-xl font-semibold text-white">
+              <h2 className="md:text-xl text-lg  font-semibold text-white">
                 Events by Design
               </h2>
             </div>
-            <p className="text-sm leading-relaxed text-gray-400 max-w-sm">
+            <p className="md:text-sm text-xs leading-relaxed text-gray-400 max-w-sm">
               Your Hub For Unforgettable Events since 2025. Your dream event is
               our passion.
             </p>

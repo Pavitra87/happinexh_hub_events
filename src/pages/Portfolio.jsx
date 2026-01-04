@@ -5,13 +5,13 @@ import PageTransition from "../components/PageTransition";
 const Portfolio = () => {
   return (
     <PageTransition>
-      <div className="py-20 px-4 sm:px-6 md:px-12 lg:px-24 bg-white mt-20">
+      <div className="py-20 px-8 sm:px-6 md:px-12 lg:px-24 bg-white mt-20">
         {/* Header */}
         <div className="text-center mb-12 max-w-7xl mx-auto animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl  font-bold text-brand-black mb-4">
+          <h2 className="text-4xl md:text-5xl  font-bold text-brand-black mb-1">
             Our Portfolio
           </h2>
-          <p className="text-gray-500 text-lg">
+          <p className="text-gray-500 leading-relaxed">
             Take a look at some of the beautiful events we've brought to life.
           </p>
         </div>

@@ -59,14 +59,14 @@ const Home = () => {
     <section className='!mt-[-50px]'>
     <ChooseUs/>
     </section>
-   <section className='!mt-[-80px]'><Services/></section>
-   <section className="py-16 px-4 sm:px-6 md:px-12 lg:px-24 bg-white !mt-[-70px]">
+   <section className='!mt-[-120px]'><Services/></section>
+   <section className="py-16 px-8 sm:px-6 md:px-12 lg:px-24 bg-white !mt-[-70px]">
       {/* Header */}
       <div className="text-center mb-12 max-w-7xl mx-auto animate-fade-in-up">
-        <h2 className="text-4xl md:text-5xl font-serif font-bold text-brand-black mb-4 ">
+        <h2 className="text-4xl md:text-5xl  font-bold text-brand-black mb-1 ">
           Our Portfolio
         </h2>
-        <p className="text-gray-500 text-lg mb-8">
+        <p className="text-gray-500 leading-relaxed  mb-8">
           Take a look at some of the beautiful events we've brought to life.
         </p>
       </div>
