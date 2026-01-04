@@ -76,11 +76,11 @@ const Services= () => {
 
   return (
     <PageTransition>
- <div className="py-20 px-4 sm:px-6 md:px-12 bg-white mt-10 md:mt-20">
+ <div className="py-20 px-8 sm:px-6 md:px-12 bg-white mt-10 md:mt-20">
 
       {/* Section Header */}
       <div className="text-center mb-9 max-w-7xl mx-auto animate-fade-in-up">
-        <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-1">
+        <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-1 md:mb-3">
           Our Specializations
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed  ">
