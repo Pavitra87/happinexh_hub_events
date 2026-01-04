@@ -21,7 +21,7 @@ const Header = memo(() => {
 
         {/* Logo */}
         <div className="flex items-center gap-3 flex-shrink-0">
-          <img src={logo} alt="Happinex Hub" className="h-25 w-25" />
+          <img src={logo} alt="Happinex Hub" className="md:h-25 md:w-25 h-20 w-20" />
         </div>
 
         {/* Desktop Menu */}
