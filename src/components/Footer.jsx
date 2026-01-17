@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-[#0b1220] to-[#050a16] text-gray-300 mt-10">
+    <footer className="bg-gradient-to-b from-[#0b1220] to-[#050a16] text-gray-300 mt-12">
       <div className="max-w-7xl mx-auto md:px-6 px-4 py-16">
         <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 md:gap-8 gap-5 sm:gap-8">
           {/* Left Section */}

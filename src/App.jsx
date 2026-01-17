@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import ChooseUs from "./pages/ChooseUs";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
-import ContactUs from "./pages/ContactUs";
+
 import Footer from './components/Footer';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path="/choose-us" element={<ChooseUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<ContactUs />} />
+        
       </Routes>
       <Footer/>
     </BrowserRouter>
